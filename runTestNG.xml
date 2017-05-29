@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default Suite" thread-count="2" parallel="methods">
+<suite name="Default Suite">
   <test name="bwebdriver">
     <classes>
-      <class name="com.man.day3.TestGrid">
-      </class> <!-- com.man.day3.TestGrid -->
+      <class name="com.man.day1.ClosedBrowserTest">
+      </class>
 
     </classes>
   </test> <!-- bwebdriver -->
