@@ -2,6 +2,7 @@ package com.man.day1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -18,6 +19,7 @@ public class ClosedBrowserTest {
         //等待5s
         Thread.sleep(5000);
         //关闭当前窗前窗口
+        Assert.assertEquals(1,2);
         driver.close();
     }
 
